@@ -1,0 +1,43 @@
+	body
+	{
+		background-color: pink; 
+		font-family: Helvetica; 
+		font-size: 12pt;
+		color:blue;
+	}
+	H1
+	{
+		font-family: Impact;
+		font-size:16pt;
+	}
+	ul i
+	{
+		color: red;
+	}
+	#text
+	{
+		color: black;
+		font-style:tahoma;
+		font-weight:800;
+	}
+	a
+	{
+		color: blue;
+		background-color: orange;	
+	}
+	a:visited
+	{
+		color: red;
+		background-color: yellow;
+		font-weight: 800;
+		text-decoration: none;
+	}
+	a:hover
+	{
+		text-decoration: none;
+		background-color: black;
+		font-size:24pt; 
+		font-weight:bold; 
+		color: red;
+	}
+	

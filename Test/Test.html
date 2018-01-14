@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8"></meta>
+	<title>TEST</title>
+	<style>
+		#nav
+		{
+			position: fixed;
+			top: 0;
+			left: 0;
+			background-color: #ff2828;
+			width: 0px;
+			height: 100%;
+			transition: all .5s;
+			font-size: 3vw;
+			overflow: hidden;
+		}
+		#nav ul
+		{
+			list-style-type: none;
+		}
+		#nav a
+		{
+			color: grey;
+			text-decoration: none;
+		}
+		#main
+		{
+			font-size: 5vw;
+			width: 4vw;
+			height: 4vw;
+		}
+	</style>
+</head>
+<body>
+	<div id="main" onclick="enableNav()">
+		&#9776
+	</div>
+	<div id="nav">
+		<div onclick="disableNav()" style="padding-left: 5px; padding-top: 10px; font-size: 5vw">
+			&#10006
+		</div>
+		<ul>
+			  <li><a href="default.asp">Home</a></li>
+			  <li><a href="news.asp">News</a></li>
+			  <li><a href="contact.asp">Contact</a></li>
+			  <li><a href="about.asp">About</a></li>
+		</ul>
+	</div>
+	<script>
+		function enableNav()
+		{
+			var nav = document.getElementById("nav"); 
+			nav.style.width = "15vw";
+			nav.style.visibility = "visible";
+		}
+		function disableNav()
+		{
+			var nav = document.getElementById("nav"); 
+			nav.style.width = "0px";	
+		}
+	</script>
+</body>
+</html>

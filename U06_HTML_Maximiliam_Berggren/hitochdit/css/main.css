@@ -1,0 +1,78 @@
+﻿body
+{
+	background: red;
+	
+}
+
+.wrapper
+{
+	width: 90%;
+	max-width: 960px;
+	min-height: 600px;
+	background: white;
+	
+	/*lägg wrappern i mitten av sidan*/
+	margin-left: auto;
+	margin-right: auto;
+}
+header
+{
+	background:;
+	height: 220px;
+}
+
+.logo
+{
+	background:;
+	width: 40%;
+	float:left;
+}
+
+nav.meny
+{
+	background:;
+	width: 60%;
+	float:right;
+}
+
+.imagebar
+{
+	background: green;
+	background-image: url(bilder/himmel.png);
+	width: 100%;
+	height: 300px;
+}
+
+/*MENY*/
+
+nav
+{
+	
+}
+nav ul 
+{
+	list-style-type: none;
+	padding: 0px;
+	text-align: right;
+}
+nav li
+{
+	display: inline;
+	margin-left: 10px;
+}
+nav a
+{
+	text-decoration: none;
+	color: #505050;
+	font-size: 14px;
+	text-transform: uppercase;
+	background: white;
+	padding: 10px;
+	padding-bottom: 10px;
+	border-radius: 5px;
+}
+nav a:hover
+{
+	background: #a508d4;
+	color:white;
+}
