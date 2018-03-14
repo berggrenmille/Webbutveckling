@@ -1,0 +1,31 @@
+#wrapper
+{
+	
+}
+div
+{
+	position:relative;
+	width: 460px;
+	height: 20px;
+}
+div.red
+{
+	background-color: red;
+}
+div.white
+{
+	background-color: white;
+}
+div.blue
+{
+	background-color:blue;
+	position: absolute;
+	z-index: 5;
+	top:0px;
+    left: 0;
+	width: 200px;
+	height: 120px;
+	color: white;
+	font-size: 18px;
+	padding-left: 10px;
+}

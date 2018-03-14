@@ -1,0 +1,26 @@
+﻿body
+{
+	padding: 3ex;
+}
+
+h1,h2,h3
+{
+	color: red;
+	font-family: sans-serif;
+}
+
+p
+{
+	font-family: serif;
+	text-align: justify;
+}
+
+nav
+{
+	background-color: #EAEAE4;
+}
+
+img
+{
+	width: 400px;
+}

@@ -1,0 +1,154 @@
+﻿<!DOCTYPE html> 
+<html lang="sv">
+<head>
+	<title>World Wide Web</title>
+	<meta charset="utf-8"/>
+	<link href="historia.css" type="text/css" rel="stylesheet"/>
+</head>
+<body>
+	<header>
+		<h1>World Wide Web</h1>
+		<h4>
+			Artikeln är till stora delar baserad på den artikel som finns i 
+			<a href="http://http://sv.wikipedia.org/wiki/World_Wide_Web">Wikipedia</a>
+		</h4>
+	</header>
+	
+	<div class="ingress">
+		<p>World Wide Web, www, webben är en av Internets tjänster. Webben 
+		   består av en stor mängd webbsidor (talspråk hemsidor), det vill säga 
+		   hypertextbaserade dokument, som är sammanlänkade via klickbara 
+		   hyperlänkar. Sidorna och länkarna bildar på så sätt en världsvid väv,
+		   därav namnet WWW. Att planlöst följa dessa länkar och bläddra fritt 
+		   mellan webbsidor kallas att webbsurfa. Användaren har ett program på 
+		   sin dator som kallas webbläsare (browser) eller webbklient. Webbsidorna 
+		   ligger fysiskt lagrade på särskilda datorer över hela världen som 
+		   kallas webbplatser eller webbservrar.
+	    </p>
+	</div>
+	
+    <nav>
+		<h2>Innehåll</h2>
+		<ol>	
+				<li>Teknisk definition</li>
+				<li>Relation mellan Internet och webben</li>
+				<li>Terminologi</li>
+				<li>Teknik</li>
+				<li>Användning</li>
+		</ol>
+	</nav>
+	<!-- dummy element, clears the above floating -->
+	<div class="dummyClear"></div>
+
+
+	<section id="1">
+		<h2>Teknisk definition</h2>
+
+		<p>Den tekniska definitionen av webben är att filer och data överförs 
+		   via datakommunikationsprotokollet HTTP. Varje sida har en webbadress 
+		   URL) som kan skrivas in i webbläsarens adressfält. Tack vare 
+		   hyperlänkar behöver inte användaren hålla reda på alla webbadresser.</p>
+
+		<p>URL:en har formen <i>tjänst://webbplats:portnummer/sökväg/filnamn.filtyp</i>, 
+		   där tjänsten är <i>http</i> vid vanlig webbkommunikation, och 
+		   <i>https</i> vid säker (krypterad) webbkommunikation. Om ingen tjänst 
+		   anges tolkar webbläsaren det som http. Filtypen är vanligen <i>html</i> 
+		   ett sidbeskrivningsspråk) vid vanliga webbsidor. Webbplatsen anges av 
+		   webbserverns DNS-namn eller IP-adress. Portnumret anger vilken 
+		   webbserverprogramvara som avses om flera körs på samma serverdator. 
+		   Om portnumret utelämnas tolkar webbläsaren det som port nummer 80.</p>
+	</section>
+	
+	<section id="2">
+		<h2>Relation mellan Internet och webben</h2>
+
+		<p>Webben är tekniskt sett bara är en av många tillämpningsområden för 
+		Internet, men eftersom WWW dominerar nätanvändningen så sammanblandas 
+		Internet (talspråk nätet) och WWW ofta. Innan webben fick sitt genomslag 
+		1995, "the year of the web", var det tekniskt komplicerat för vanliga 
+		användare att hitta information på Internet via äldre tjänster och 
+		protokoll såsom FTP (en tjänst för fileröverföring) och Gopher (ett 
+		hierarkiskt menysystem för att bläddra mellan filer). Dessa kan beskrivas 
+		som föregångare till webben. Andra vanliga internettjänster som inte 
+		räknas till webben är e-post, IP-telefoni, onlinespel och direktmeddelanden 
+		(messengingtjänster). Emellertid suddas gränsen ut mellan webben och andra 
+		applikationer, då det finns webbgränssnitt till flera av dessa tjänster, 
+		så att man inte behöver starta ett särskilt datorprogram utan kan använda
+		webbläsaren för att komma åt dem. Många tjänster som kräver särskilda 
+		program, exempelvis mediaspelare och mobilappar, använder i grunden samma 
+		kommunikationsteknik (HTTP-protokollet) som webben, även om tjänsterna inte
+		alltid är tillgängliga via vanliga webbläsare.</p>
+	</section>
+	
+	<section id="3">
+		<h2>Terminologi</h2>
+
+		<p>World Wide Web är en kombination av fyra ingredienser:</p>
+
+		<div class="lista">
+			<ol>
+				<li><span class="strong">Hypertext</span>, vilket är en typ av 
+				    information som gör att man med användning av en dator kan 
+					flytta fokus från en del av ett dokument till något annat 
+					avsnitt i samma dokument eller i ett helt helt annat dokument, 
+					med hjälp av referenser (hyperlänkar) som lagts in i dokumenten.</li>
+				<li>Globalt standardiserade 
+				    <span class="strong">informationsidentifierare</span>, som gör 
+					det möjligt att unikt peka ut information som finns lagrad på ett 
+					sådant sätt att den kan nås genom Internet. Informationen kan vara 
+					text, bild med mera.
+				<li><span class="strong">Klient-server-modellen</span>, för samspel 
+				    och kommunikation mellan datorer. Enligt denna modell kan program 
+					i en klientdator göra förfrågningar hos program på en serverdator 
+					som därefter ger klienten den information som efterfrågas, till 
+					exempel ett textdokument.</li>
+				<li><span class="strong">Märkspråk</span>, exempelvis HTML och XHTML, 
+				    är särskild text som finns i dokumentet men inte syns när 
+					dokumentet presenteras för användaren, utan istället utgör direktiv 
+					till det datorprogram som presenterar dokumentet, om formatatering, 
+					hyperlänkar, inbäddade bilder, strukturering, till exempel i kapitel 
+					och paragrafer, om semantiska relationer mellan textdelar och om hur 
+					det ska visas rent grafiskt.</li>
+			</ol>
+		</div>
+	</section>
+	
+	<section id="4">
+		<h2>Teknik</h2>
+
+		<p>WWW är byggt kring standarderna</p>
+
+		<div class="lista">
+			<ul>
+				<li><span class="strong">Uniform Resource Locator</span> (URL), som 
+				    specificerar hur webbadresser ser ut,</li>
+				<li><span class="strong">Hyper Text Transfer Protocol</span> (HTTP), som 
+				    specificerar hur webbsidorna skickas, och</li>
+				<li><span class="strong">Hyper Text Markup Language</span> (HTML), som 
+				    specificerar hur webbsidornas innehåll beskrivs.</li>
+			</ul>
+		</div>
+
+		<p>World Wide Web Consortium (W3C) är en organisation som arbetar med att ta fram 
+		   standarder för World Wide Web.</p>
+	</section>
+
+	<section id="5">
+		<h2>Användning</h2>
+
+		<p>För att använda WWW behövs en internetuppkoppling och, om man vill ha ett 
+		   användarvänligt gränssnitt, en webbläsare.</p>
+	</section>
+	
+	<section id="6">
+		<h2>Se även</h2>
+		<ul>
+			<li>Internets Historia</li>
+		</ul>	
+	</section>
+	
+	<footer>
+		<p>Obligatorisk uppgift för kursen Webbutveckling med HTML5</p>
+	</footer>
+</body>
+</html>

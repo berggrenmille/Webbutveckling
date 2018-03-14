@@ -1,0 +1,70 @@
+
+body
+{
+  margin: 0;
+  background-image: url("../Images/P_Black1.jpg");
+  background-repeat: repeat-y;
+  background-size: cover;
+}
+/*Typografi*/
+@font-face {
+    font-family: AP;
+    src: url("../Fonts/Admiration Pains.ttf");
+}
+@font-face {
+    font-family: GV;
+    src: url("../Fonts/GreatVibes-Regular.ttf");
+}
+@font-face {
+    font-family: MP;
+    src: url("../Fonts/MotionPicture_PersonalUseOnly.ttf");
+}
+h1
+{
+  margin: 0;
+  text-align: center;
+  line-height: 175px;
+  text-shadow: rgba(0,0,0,.01) 0 0 1px;
+
+  font-size: 5em;
+  font-family: "AP", sans-serif, serif;
+}
+h2
+{
+  font-size: 5em;
+  font-family: "GV", sans-serif, serif;
+  font-weight: 100;
+  font-style: italic;
+}
+hr
+{
+  width: 100%;
+}
+
+header
+{
+  background-color: white;
+  height: 200px;
+
+}
+
+#wrapper
+{
+  width: 90%;
+  max-width: 960px;
+
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.grid-container
+{
+  display: grid;
+  grid-gap: 50px 100px;
+}
+.grid-item
+{
+  text-align:center;
+  color: white;
+  font-family: sans-serif;
+}
