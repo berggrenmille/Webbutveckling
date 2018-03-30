@@ -1,0 +1,132 @@
+/*css variables*/
+:root
+{
+  --color1: #FFFFFF;
+  --color2: #CCCCCC;
+  --color3: #999999;
+}
+
+/*Font imports*/
+@font-face {
+    font-family: AP;
+    src: url("../Fonts/Admiration Pains.ttf");
+}
+@font-face {
+    font-family: GV;
+    src: url("../Fonts/GreatVibes-Regular.ttf");
+}
+@font-face {
+    font-family: MP;
+    src: url("../Fonts/MotionPicture_PersonalUseOnly.ttf");
+}
+
+  /*Main body style*/
+body
+{
+  margin: 0;
+  background-image: url("../Images/P_Black1.jpg");
+  background-repeat: repeat-y;
+  background-size: cover;
+  min-width: 800;
+  min-height: 400;
+  font-family: "sans-serif";
+}
+
+/*Structural typography*/
+h1
+{
+  margin: 0;
+  text-align: center;
+
+  font-size: 5em;
+  font-family: "AP", sans-serif, serif;
+
+/*Apply a suttle form of anti-aliasing*/
+  text-shadow: rgba(0,0,0,.01) 0 0 1px;
+
+}
+h2
+{
+  font-size: 5em;
+  font-family: "GV", sans-serif, serif;
+  font-weight: 100;
+  font-style: italic;
+}
+hr
+{
+  width: 100%;
+}
+
+/*Top header style*/
+header
+{
+  background-color: white;
+  height: 200px;
+  line-height: 200px;
+}
+
+/*navigation bar style*/
+nav
+{
+  overflow: hidden;
+  position: sticky;
+  background-color: var(--color2);
+  top:0;
+}
+/* Navigation links */
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+nav ul li
+{
+  float: left;
+  text-align: center;
+  padding: 20px;
+  font-size: 1.5em;
+  transition: background-color 0.2s;
+
+}
+
+nav ul li
+{
+  background-color: var(--color2);
+}
+nav ul li:hover
+{
+  background-color: var(--color3);
+}
+
+nav ul li a
+{
+    text-align: center;
+    display: block;
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+/*Main body content style*/
+#wrapper
+{
+  width: 90%;
+  max-width: 960px;
+
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.grid-container /*The container which holds all elements in a structural order*/
+{
+  display: grid;
+  grid-gap: 50px 100px;
+}
+.grid-item /*An element in a grid container*/
+{
+  text-align:center;
+  color: white;
+  font-family: sans-serif;
+}
+
+/*Footer content style*/
