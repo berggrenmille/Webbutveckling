@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8"/>
+    <link href="CSS/Main.css" type="text/css" rel="stylesheet"/>
+    <title>MaxBBQ</title>
+  </head>
+
+  <body>
+    <section id="sec-header">
+      <header>
+        <h1>Max BBQ</h1>
+      </header>
+    </section>
+
+    <nav>
+      <ul>
+        <li><a href="Home.html">Home</a></li>
+        <li><a href="Food.html">Our food</a></li>
+        <li><a href="Work.html">Work here</a></li>
+        <li id="nav-current"><a href="About.html">About us</a></li>
+      </ul>
+    </nav>
+
+    <section id="sec-main">
+      <div id="wrapper">
+        <!--The grid containter is what keeps all parts of the site in a grid structure-->
+        <div class="grid-container">
+          <!-- A grid item is an element of the grid container-->
+          <div class="grid-item">
+            <h2>History</h2>
+            <p>
+              We started of as a small grill on an island in the archipelago of Stockholm back in 1974. Back then we only served small and simple burgers, but the thing was that it was not just small and simple burgers, it was great burgers! We evolved and grew every year to become what we are today. Today we serve 500+ guest a day even better burgers. Today we have a loving staff who work to serve the most delicious of meats. Today we work to keep the holy spirit of the burger alive. Today we are MaxBBQ.
+            </p>
+          </div>
+
+          <div class="grid-item">
+            <h2>The creator</h2>
+            <figure>
+              <img src="Images/Shrek.jpg" alt="image could not be loaded"/>
+              <figcaption>Maximiliam Berggren</figcaption>
+            </figure>
+
+          </div>
+
+          <div class="grid-item">
+            <h2>Whereabouts</h2>
+            <p>Currently we are located just where we started, on Ljusterö. An island in the archipelago of Stockholm, Sweden. You can find us here, but we are looking to expand so you might just have to wait for us to come to you.</p>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1013.5540166917198!2d18.57177415837209!3d59.4646239581777!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46f562bf74c9699f%3A0x381a804081046b23!2sLjuster%C3%B6+Lekland+%26+Loppis+(sommartid)!5e0!3m2!1ssv!2sse!4v1522423598824" width="600" height="450" style="border:0" allowfullscreen></iframe>
+          </div>
+
+          <div class="grid-item">
+            <h2>Contact us</h2>
+            <p>
+              We love living the wild life, therefore we have a no-phone policy, but you will always be able to reach us by email.
+              Fill the following form to keep in touch.
+            </p>
+            <form onsubmit="SendEmailToOwner()">
+              Enter email's subject:
+              <input name="Subject" id="subjectId" type="text" maxlength="64" required />
+              Enter email's body:
+              <textarea name="Body" id="bodyId" rows="10" maxlength="250" required></textarea>
+              <input name="sendMail" type="submit" value="Send"/>
+            </form>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+
+    <!--Start of footer-->
+    <footer>
+      <address>
+      <p>Owned & built by: Maximiliam Berggren</p>
+      <p>Contact owner: <a target="_blank" href="mailto:iceklue@gmail.com">iceklue@gmail.com</a></p>
+      <p>Visit us: Tranviksvägen 50, 184 97 Ljusterö</p>
+      <p>*OBS: this company does not exits noir should you trust any information given on this site.*</p>
+    </address>
+    </footer>
+
+
+    <!--Init the JS file later to be able to init references to elements-->
+    <script src="JS/Main.JS"></script>
+  </body>
+</html>

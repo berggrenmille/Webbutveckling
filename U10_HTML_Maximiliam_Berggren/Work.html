@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8"/>
+    <link href="CSS/Main.css" type="text/css" rel="stylesheet"/>
+    <title>MaxBBQ</title>
+  </head>
+
+  <body>
+    <section id="sec-header">
+      <header>
+        <h1>Max BBQ</h1>
+      </header>
+    </section>
+
+    <nav>
+      <ul>
+        <li><a href="Home.html">Home</a></li>
+        <li><a href="Food.html">Our food</a></li>
+        <li id="nav-current"><a href="Work.html">Work here</a></li>
+        <li><a href="About.html">About us</a></li>
+      </ul>
+    </nav>
+
+    <section id="sec-main">
+      <div id="wrapper">
+        <!--The grid containter is what keeps all parts of the site in a grid structure-->
+        <div class="grid-container">
+          <!-- A grid item is an element of the grid container-->
+          <div class="grid-item">
+            <h2>Workplace</h2>
+            <p>We are famous for having the best workspace there is. Just as much as we love our food, we love our staff. We give you free food, we give your friends free food, if you work here everyone gets free food.</p>
+          </div>
+          <div class="grid-item">
+            <h2>We give you a memory for life</h2>
+            <p>It's our guarantee that you will remember working here with us. We offer give our lovely worker the best education you can get and the best thing is that you don't need any previous experiences. Does not matter if you come from Mcdonald's or ICA. You are welcome here anyhow.</p>
+          </div>
+          <div class="grid-item">
+            <h2>You wish to work here?</h2>
+            <p>We would love to have all of you working here, but unfortunatly we are a business and can't accept everybody. But if you are interested fill in the following form and we will contact you as fast as we possibly can</p>
+            <form onsubmit="SendEmailAboutWork()">
+              Enter your first name:
+              <input name="firstName" id="firstnameId" type="text" maxlength="64" required />
+              Enter your last name:
+              <input name="firstName" id="lastnameId" type="text" maxlength="64" required />
+              Enter your gender:
+              <br>
+              <select id="genderId">
+                <option value="male">Male</option>
+                <option value="female">Female</option>
+                <option value="non-binary">Non-binary</option>
+              </select>
+              <br>
+              Enter your age:
+              <br>
+              <input type="number" id="ageId" name="age" value="18" required>
+              <br>
+              What makes you special? (250 words)
+              <br>
+              <textarea name="Body" id="bodyId" rows="10" maxlength="250" required></textarea>
+              <br>
+              <input name="sendMail" type="submit" value="Send"/>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <!--Start of footer-->
+    <footer>
+      <address>
+      <p>Owned & built by: Maximiliam Berggren</p>
+      <p>Contact owner: <a href="mailto:iceklue@gmail.com">iceklue@gmail.com</a></p>
+      <p>Visit us: Tranviksvägen 50, 184 97 Ljusterö</p>
+      <p>*OBS: this company does not exits noir should you trust any information given on this site.*</p>
+    </address>
+    </footer>
+
+
+  <!--Init the JS file later to be able to init references to elements-->
+  <script src="JS/Main.JS"></script>
+  </body>
+</html>

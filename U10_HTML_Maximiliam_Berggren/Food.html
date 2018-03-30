@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8"/>
+    <link href="CSS/Main.css" type="text/css" rel="stylesheet"/>
+    <title>MaxBBQ</title>
+  </head>
+
+  <body>
+    <section id="sec-header">
+      <header>
+        <h1>Max BBQ</h1>
+      </header>
+    </section>
+
+    <nav>
+      <ul>
+        <li><a href="Home.html">Home</a></li>
+        <li id="nav-current"><a href="Food.html">Our food</a></li>
+        <li><a href="Work.html">Work here</a></li>
+        <li><a href="About.html">About us</a></li>
+      </ul>
+    </nav>
+
+    <section id="sec-main">
+      <div id="wrapper">
+        <!--The grid containter is what keeps all parts of the site in a grid structure-->
+        <div class="grid-container">
+          <!-- A grid item is an element of the grid container-->
+          <div class="grid-item">
+            <h2>What do we offer?</h2>
+            <p>We are based on soley on the tastyness of the burger, therefore we only serve meals with hamburgers. We do offer sides, but you must order a burger to be able to purchase one. As we like to say, we like things simple.</p>
+          </div>
+
+          <div class="grid-item">
+            <h2>Á la carte</h2>
+            <table>
+              <tr>
+                <th>Item</th>
+                <th>Looks</th>
+                <th>Sides</th>
+                <th>Price</th>
+              </tr>
+              <tr>
+                <td>Big Max</td>
+                <td><img src="Images/BigMac.png" alt="*picture of burger*"/></td>
+                <td>Fries</td>
+                <td>15:-</td>
+              </tr>
+              <tr>
+                <td>Big fuc*ing burger</td>
+                <td><img src="Images/cow.png" alt="*picture of burger*"/></td>
+                <td>None</td>
+                <td>299:-</td>
+              </tr>
+              <tr>
+                <td>Simplistic</td>
+                <td><img src="Images/Cheese.png" alt="*picture of burger*"/></td>
+                <td>Potatoes</td>
+                <td>3:-</td>
+              </tr>
+              <tr>
+                <td>Deluxe</td>
+                <td><img src="Images/TripleCheese.png" alt="*picture of burger*"/></td>
+                <td>Cheese</td>
+                <td>10:-</td>
+              </tr>
+            </table>
+          </div>
+
+          <div class="grid-item">
+            <h2>Watch our famous commercial</h2>
+            <video id="video" onmouseover="PlaySound()" onmouseleave="StopSound()" loop autoplay muted preload="auto">
+              <source src="Videos/Commercial.mp4" type="video/mp4">
+              Your browser does not suppoer the video tag
+            </video>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+
+    <!--Start of footer-->
+    <footer>
+      <address>
+      <p>Owned & built by: Maximiliam Berggren</p>
+      <p>Contact owner: <a href="mailto:iceklue@gmail.com">iceklue@gmail.com</a></p>
+      <p>Visit us: Tranviksvägen 50, 184 97 Ljusterö</p>
+      <p>*OBS: this company does not exits noir should you trust any information given on this site.*</p>
+    </address>
+    </footer>
+
+
+  <!--Init the JS file later to be able to init references to elements-->
+  <script src="JS/Main.JS"></script>
+  </body>
+</html>
