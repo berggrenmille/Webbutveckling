@@ -26,6 +26,7 @@ body
   margin: 0;
   background-image: url("../Images/P_Black1.jpg");
   background-repeat: repeat-y;
+  background-size: cover;
   min-width: 800;
   min-height: 400;
   font-family: "sans-serif";
