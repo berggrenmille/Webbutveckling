@@ -23,6 +23,7 @@
 #output p {
 	margin: 0;
 	padding: 0.2ex;
+	min-height: 18px;
 }
 #output p.even {
 	background-color: #DCDCDC;
